@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mapboxgl-popup-content h2 {
+    margin: 0px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+.mapboxgl-popup-content h3 {
+  font-size: 1em;
+  font-family: 'DM Sans', sans-serif;
+  color: #668959;
+  margin: 0px;
+  text-align: center;
+  line-height: 1;
+}
+
+.mapboxgl-popup-content p {
+  font-size: 0.8em;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  color: #000000;
+  margin: 0px;
+  line-height: 1.2;
+}
+
+
+.mapboxgl-popup-content a {
+  color: #005c51;
+  text-decoration: underline;
+  font-size: 0.8em;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.mapboxgl-popup-content a:hover {
+    color: #668959;
+}
+
+
+#map {
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.mapboxgl-popup-content {
+  background-color: #FFFFFF;
+}
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    border-bottom-color: #FFFFFF;
+    }
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    border-top-color: #FFFFFF;
+    }
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    border-right-color: #FFFFFF;
+    }
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    border-left-color: #FFFFFF;
+    }
+
+#filterMenu {
+    position: absolute;
+    font-size: 15px;
+    display: block;
+    margin: 0;
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    background: #ffffff;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
